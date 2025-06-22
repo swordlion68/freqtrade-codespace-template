@@ -1,0 +1,15 @@
+{
+  "dry_run": true,
+  "exchange": {
+    "name": "binance",
+    "key": "YOUR_API_KEY",
+    "secret": "YOUR_API_SECRET"
+  },
+  "pair_whitelist": ["BTC/USDT"],
+  "timeframe": "5m",
+  "strategy": "MyStrategy",
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "runmode": "prod",
+  "process_throttle_secs": 5
+}
